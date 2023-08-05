@@ -12,7 +12,8 @@
 2) Clone the repository and start the environment.
 3) Run the only cell present in the data.ipynb
 4) Now the database is created in MongoDB with the DB name as mydb for MongoDB running on 'localhost' at port 27017 for defined collection names as users.
-5) Run the api.py and start the flask rest APIs if followed correctly and if the port is not already occupied the flask will start the app on localhost:5000. Now using the correct bodies we can test API data in Postman as shown below:
+5) There are two api files api.py contains normal flask API routes while api2.py contains the same functionality using flask restful and using blueprints concept. Both kwork exactly same so can start any api file.
+6)start the flask rest APIs if followed correctly and if the port is not already occupied the flask will start the app on localhost:5000. Now using the correct bodies we can test API data in Postman as shown below:
   a) GET /users - Returns a list of all users.
 ![image](https://github.com/Vedantjaiswal4352/CRUD_flask/assets/69847543/7ed33f08-326e-47c0-8fea-f6a2c4a22a8d)
   b) GET /users/<id> - Returns the user with the specified ID.
